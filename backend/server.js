@@ -9,7 +9,7 @@ import userRoutes from "./routers/user.routes.js";
 import connectToMongoDB from "./db/connectToMongoDB.js";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 dotenv.config();
 

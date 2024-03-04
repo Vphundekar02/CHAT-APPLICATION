@@ -16,6 +16,7 @@ export const sendMessage = async (req, res) => {
                 participants : [senderId, receiverId],
             });
         }
+        console.log(message)
 
         const newMessage = new Message({
             senderId,
