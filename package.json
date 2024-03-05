@@ -2,10 +2,10 @@
   "name": "chat-application",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/app.js",
-    "start": "node backend/app.js",
+    "server": "nodemon backend/server.js",
+    "start": "node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
